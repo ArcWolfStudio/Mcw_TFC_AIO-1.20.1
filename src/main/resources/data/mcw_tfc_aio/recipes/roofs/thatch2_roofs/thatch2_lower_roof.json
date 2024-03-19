@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "lower",
+    
+    "pattern":
+    [
+		" WW",
+        "WWS"
+    ],
+    
+    "key":
+    {
+        "W":
+        {
+            "item": "tfc:thatch"
+        },
+		"S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcw_tfc_aio:roofs/thatch2_roofs/thatch2_lower_roof",
+        "count": 4
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "values": [
+    "mcw_tfc_aio:roofs/thatch2_roofs/thatch2_attic_roof",
+    "mcw_tfc_aio:roofs/thatch2_roofs/thatch2_lower_roof",
+    "mcw_tfc_aio:roofs/thatch2_roofs/thatch2_roof",
+    "mcw_tfc_aio:roofs/thatch2_roofs/thatch2_steep_roof",
+    "mcw_tfc_aio:roofs/thatch2_roofs/thatch2_top_roof",
+    "mcw_tfc_aio:roofs/thatch2_roofs/thatch2_upper_lower_roof",
+    "mcw_tfc_aio:roofs/thatch2_roofs/thatch2_upper_steep_roof"
+  ]
+}

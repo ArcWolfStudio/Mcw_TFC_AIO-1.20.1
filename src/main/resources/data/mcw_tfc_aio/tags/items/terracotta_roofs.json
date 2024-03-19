@@ -1,0 +1,13 @@
+{
+  "values": [
+    "mcw_tfc_aio:roofs/base_roofs/base_attic_roof",
+    "mcw_tfc_aio:roofs/base_roofs/base_lower_roof",
+    "mcw_tfc_aio:roofs/base_roofs/base_roof",
+    "mcw_tfc_aio:roofs/base_roofs/base_steep_roof",
+    "mcw_tfc_aio:roofs/base_roofs/base_top_roof",
+    "mcw_tfc_aio:roofs/base_roofs/base_upper_lower_roof",
+    "mcw_tfc_aio:roofs/base_roofs/base_upper_steep_roof",
+    "mcw_tfc_aio:roofs/base_roofs/base_roof_block",
+    "mcw_tfc_aio:roofs/base_roofs/base_roof_slab"
+  ]
+}

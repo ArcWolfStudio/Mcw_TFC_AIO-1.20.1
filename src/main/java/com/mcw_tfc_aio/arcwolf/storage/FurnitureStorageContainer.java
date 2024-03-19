@@ -1,7 +1,6 @@
 package com.mcw_tfc_aio.arcwolf.storage;
 
 
-import com.mcw_tfc_aio.arcwolf.init.BlockInit;
 import com.mcw_tfc_aio.arcwolf.init.ContainerInit;
 import com.mcw_tfc_aio.arcwolf.init.FurnitureInit;
 import net.minecraft.core.BlockPos;
@@ -10,7 +9,6 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.ContainerLevelAccess;
-import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
@@ -20,9 +18,8 @@ import net.minecraftforge.items.ItemStackHandler;
 
 public class FurnitureStorageContainer extends AbstractContainerMenu {
     private final ContainerLevelAccess containerAccess;
-
     public FurnitureStorageContainer(int ints, Inventory inv, FriendlyByteBuf buf) {
-        this(ints, inv, new ItemStackHandler(27), BlockPos.ZERO);
+        this(ints, inv, new ItemStackHandler(18), BlockPos.ZERO);
     }
 
     public FurnitureStorageContainer(int ints, Inventory inv, IItemHandler slots, BlockPos pos) {

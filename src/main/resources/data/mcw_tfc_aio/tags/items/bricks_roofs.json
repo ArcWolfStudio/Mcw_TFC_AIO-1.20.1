@@ -1,0 +1,11 @@
+{
+  "values": [
+    "mcw_tfc_aio:roofs/brick_roofs/bricks_attic_roof",
+    "mcw_tfc_aio:roofs/brick_roofs/bricks_lower_roof",
+    "mcw_tfc_aio:roofs/brick_roofs/bricks_roof",
+    "mcw_tfc_aio:roofs/brick_roofs/bricks_steep_roof",
+    "mcw_tfc_aio:roofs/brick_roofs/bricks_top_roof",
+    "mcw_tfc_aio:roofs/brick_roofs/bricks_upper_lower_roof",
+    "mcw_tfc_aio:roofs/brick_roofs/bricks_upper_steep_roof"
+  ]
+}

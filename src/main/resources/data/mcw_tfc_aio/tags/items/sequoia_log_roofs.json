@@ -1,0 +1,13 @@
+{
+  "values": [
+    "mcw_tfc_aio:roofs/sequoia_roofs/sequoia_attic_roof",
+    "mcw_tfc_aio:roofs/sequoia_roofs/sequoia_lower_roof",
+    "mcw_tfc_aio:roofs/sequoia_roofs/sequoia_roof",
+    "mcw_tfc_aio:roofs/sequoia_roofs/sequoia_steep_roof",
+    "mcw_tfc_aio:roofs/sequoia_roofs/sequoia_top_roof",
+    "mcw_tfc_aio:roofs/sequoia_roofs/sequoia_upper_lower_roof",
+    "mcw_tfc_aio:roofs/sequoia_roofs/sequoia_upper_steep_roof"
+
+
+  ]
+}

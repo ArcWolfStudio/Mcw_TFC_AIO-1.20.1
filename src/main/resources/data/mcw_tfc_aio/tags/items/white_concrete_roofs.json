@@ -1,0 +1,12 @@
+{
+  "values": [
+    "mcw_tfc_aio:roofs/white_concrete_roofs/white_concrete_attic_roof",
+    "mcw_tfc_aio:roofs/white_concrete_roofs/white_concrete_lower_roof",
+    "mcw_tfc_aio:roofs/white_concrete_roofs/white_concrete_roof",
+    "mcw_tfc_aio:roofs/white_concrete_roofs/white_concrete_steep_roof",
+    "mcw_tfc_aio:roofs/white_concrete_roofs/white_concrete_top_roof",
+    "mcw_tfc_aio:roofs/white_concrete_roofs/white_concrete_upper_lower_roof",
+    "mcw_tfc_aio:roofs/white_concrete_roofs/white_concrete_upper_steep_roof"
+
+  ]
+}

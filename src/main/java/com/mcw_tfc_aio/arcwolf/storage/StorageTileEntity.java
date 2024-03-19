@@ -2,10 +2,8 @@ package com.mcw_tfc_aio.arcwolf.storage;
 
 
 import com.mcw_tfc_aio.arcwolf.init.BlockEntityInit;
-import net.dries007.tfc.common.container.RestrictedChestContainer;
-import net.dries007.tfc.common.container.TFCContainerTypes;
+import net.dries007.tfc.common.blockentities.TFCChestBlockEntity;
 import net.minecraft.core.BlockPos;
-import net.minecraft.core.Direction;
 import net.minecraft.core.NonNullList;
 import net.minecraft.core.Vec3i;
 import net.minecraft.nbt.CompoundTag;
@@ -14,26 +12,21 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.Container;
 import net.minecraft.world.ContainerHelper;
-import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.ChestMenu;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.BarrelBlock;
-import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.entity.ContainerOpenersCounter;
-import net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 
-public class StorageTileEntity extends RandomizableContainerBlockEntity {
+public class StorageTileEntity extends TFCChestBlockEntity {
     private NonNullList<ItemStack> items;
     private ContainerOpenersCounter openersCounter;
 
     public StorageTileEntity(BlockPos pos, BlockState state) {
         super(BlockEntityInit.FURNITURE_STORAGE.get(), pos, state);
         this.items = NonNullList.withSize(18, ItemStack.EMPTY);
-//        this.items = NonNullList.withSize(27, ItemStack.EMPTY);
         this.openersCounter = new ContainerOpenersCounter() {
             protected void onOpen(Level level, BlockPos pos, BlockState state) {
             }
@@ -72,9 +65,6 @@ public class StorageTileEntity extends RandomizableContainerBlockEntity {
 
     }
 
-//    public int getContainerSize() {
-//        return 27;
-//    }
     public int getContainerSize() {
         return 18;
     }
@@ -91,14 +81,6 @@ public class StorageTileEntity extends RandomizableContainerBlockEntity {
         return Component.translatable("mcw_tfc_aio.container.threerows");
     }
 
-//    protected AbstractContainerMenu createMenu(int ints, Inventory inventory) {
-//        return ChestMenu.threeRows(ints, inventory, this);
-//    }
-    @Override
-    protected AbstractContainerMenu createMenu(int id, Inventory inventory)
-    {
-      return new RestrictedChestContainer(TFCContainerTypes.CHEST_9x2.get(), id, inventory, this, 2);
-    }
     public void startOpen(Player player) {
         if (!this.remove && !player.isSpectator()) {
             this.openersCounter.incrementOpeners(player, this.getLevel(), this.getBlockPos(), this.getBlockState());

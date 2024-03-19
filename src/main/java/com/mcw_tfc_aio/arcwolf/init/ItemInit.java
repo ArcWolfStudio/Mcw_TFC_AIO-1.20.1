@@ -2452,7 +2452,28 @@ public class ItemInit {
         return new FuelItemBlock((Block)RoofInit.THATCH_UPPER_LOWER_ROOF.get(), new Item.Properties());
     });
     public static final RegistryObject<Item> THATCH_UPPER_STEEP_ROOF = ITEMS.register("roofs/thatch_roofs/thatch_upper_steep_roof",() -> {
-        return new FuelItemBlock((Block)RoofInit.THATCH_UPPER_STEEP_ROOF.get(), new Item.Properties());
+        return new FuelItemBlock((Block) RoofInit.THATCH_UPPER_STEEP_ROOF.get(), new Item.Properties());
+    });
+    public static final RegistryObject<Item> THATCH2_ROOF = ITEMS.register("roofs/thatch2_roofs/thatch2_roof",() -> {
+        return new FuelItemBlock((Block)RoofInit.THATCH2_ROOF.get(), new Item.Properties());
+    });
+    public static final RegistryObject<Item> THATCH2_ATTIC_ROOF = ITEMS.register("roofs/thatch2_roofs/thatch2_attic_roof",() -> {
+        return new FuelItemBlock((Block)RoofInit.THATCH2_ATTIC_ROOF.get(), new Item.Properties());
+    });
+    public static final RegistryObject<Item> THATCH2_TOP_ROOF = ITEMS.register("roofs/thatch2_roofs/thatch2_top_roof",() -> {
+        return new FuelItemBlock((Block)RoofInit.THATCH2_TOP_ROOF.get(), new Item.Properties());
+    });
+    public static final RegistryObject<Item> THATCH2_LOWER_ROOF = ITEMS.register("roofs/thatch2_roofs/thatch2_lower_roof",() -> {
+        return new FuelItemBlock((Block)RoofInit.THATCH2_LOWER_ROOF.get(), new Item.Properties());
+    });
+    public static final RegistryObject<Item> THATCH2_STEEP_ROOF = ITEMS.register("roofs/thatch2_roofs/thatch2_steep_roof",() -> {
+        return new FuelItemBlock((Block)RoofInit.THATCH2_STEEP_ROOF.get(), new Item.Properties());
+    });
+    public static final RegistryObject<Item> THATCH2_UPPER_LOWER_ROOF = ITEMS.register("roofs/thatch2_roofs/thatch2_upper_lower_roof",() -> {
+        return new FuelItemBlock((Block)RoofInit.THATCH2_UPPER_LOWER_ROOF.get(), new Item.Properties());
+    });
+    public static final RegistryObject<Item> THATCH2_UPPER_STEEP_ROOF = ITEMS.register("roofs/thatch2_roofs/thatch2_upper_steep_roof",() -> {
+        return new FuelItemBlock((Block)RoofInit.THATCH2_UPPER_STEEP_ROOF.get(), new Item.Properties());
     });
     public static final RegistryObject<Item> BRICKS_ROOF = ITEMS.register("roofs/brick_roofs/bricks_roof",() -> {
         return new FuelItemBlock((Block)RoofInit.BRICKS_ROOF.get(), new Item.Properties());

@@ -1,0 +1,7 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/three_way_roof",
+	"textures": {
+		"particle": "mcw_tfc_aio:block/thatch2",
+		"1_1_2": "mcw_tfc_aio:block/thatch2"
+	}
+}

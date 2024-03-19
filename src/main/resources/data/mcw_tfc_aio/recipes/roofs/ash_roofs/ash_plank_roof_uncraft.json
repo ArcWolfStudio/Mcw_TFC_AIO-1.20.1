@@ -1,0 +1,18 @@
+{
+    "type": "tfc:damage_inputs_shapeless_crafting",
+    "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+            {
+                "tag": "mcw_tfc_aio:ash_planks_roofs"
+            },
+            {
+                "tag": "tfc:saws"
+            }
+        ],
+        "result": {
+            "item": "tfc:wood/planks/ash",
+            "count": 1
+        }
+    }
+}

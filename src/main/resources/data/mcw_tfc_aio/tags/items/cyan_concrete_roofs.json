@@ -1,0 +1,12 @@
+{
+  "values": [
+    "mcw_tfc_aio:roofs/cyan_concrete_roofs/cyan_concrete_attic_roof",
+    "mcw_tfc_aio:roofs/cyan_concrete_roofs/cyan_concrete_lower_roof",
+    "mcw_tfc_aio:roofs/cyan_concrete_roofs/cyan_concrete_roof",
+    "mcw_tfc_aio:roofs/cyan_concrete_roofs/cyan_concrete_steep_roof",
+    "mcw_tfc_aio:roofs/cyan_concrete_roofs/cyan_concrete_top_roof",
+    "mcw_tfc_aio:roofs/cyan_concrete_roofs/cyan_concrete_upper_lower_roof",
+    "mcw_tfc_aio:roofs/cyan_concrete_roofs/cyan_concrete_upper_steep_roof"
+
+  ]
+}

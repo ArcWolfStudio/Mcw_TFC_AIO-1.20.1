@@ -1,0 +1,12 @@
+{
+  "values": [
+    "mcw_tfc_aio:roofs/gray_concrete_roofs/gray_concrete_attic_roof",
+    "mcw_tfc_aio:roofs/gray_concrete_roofs/gray_concrete_lower_roof",
+    "mcw_tfc_aio:roofs/gray_concrete_roofs/gray_concrete_roof",
+    "mcw_tfc_aio:roofs/gray_concrete_roofs/gray_concrete_steep_roof",
+    "mcw_tfc_aio:roofs/gray_concrete_roofs/gray_concrete_top_roof",
+    "mcw_tfc_aio:roofs/gray_concrete_roofs/gray_concrete_upper_lower_roof",
+    "mcw_tfc_aio:roofs/gray_concrete_roofs/gray_concrete_upper_steep_roof"
+
+  ]
+}

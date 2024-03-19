@@ -1,0 +1,7 @@
+{
+	"parent": "mcw_tfc_aio:block/parent/xx_steep_inner",
+	"textures": {
+		"particle": "mcw_tfc_aio:block/thatch2",
+		"2": "mcw_tfc_aio:block/thatch2"
+	}
+}

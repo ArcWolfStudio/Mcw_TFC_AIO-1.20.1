@@ -1,0 +1,54 @@
+
+{
+    "variants": {           
+
+        "part=pyramid":  { "model": "mcw_tfc_aio:block/top/thatch2_top_pyramid" },
+		"part=switched": { "model": "mcw_tfc_aio:block/top/thatch2_top_roof", "y": 90},
+
+        "part=basic,north=false,east=false,south=false,west=true":  { "model": "mcw_tfc_aio:block/top/thatch2_top_roof", "y": 90 },
+        "part=basic,north=false,east=true,south=false,west=true": { "model": "mcw_tfc_aio:block/top/thatch2_top_roof", "y": 90},
+        "part=basic,north=false,east=true,south=false,west=false": { "model": "mcw_tfc_aio:block/top/thatch2_top_roof", "y": 90},
+
+        "part=basic,north=false,east=false,south=true,west=false":  { "model": "mcw_tfc_aio:block/top/thatch2_top_roof"},
+        "part=basic,north=true,east=false,south=false,west=false": { "model": "mcw_tfc_aio:block/top/thatch2_top_roof"},
+        "part=basic,north=false,east=false,south=false,west=false": { "model": "mcw_tfc_aio:block/top/thatch2_top_roof"},
+		"part=basic,north=true,east=false,south=true,west=false": { "model": "mcw_tfc_aio:block/top/thatch2_top_roof"},
+
+        "part=end_part,north=true,east=false,south=false,west=false": { "model": "mcw_tfc_aio:block/top/thatch2_top_roof_end"},
+        "part=end_part,north=true,east=false,south=true,west=false": { "model": "mcw_tfc_aio:block/top/thatch2_top_roof_end"},
+		"part=end_part,north=false,east=false,south=false,west=false": { "model": "mcw_tfc_aio:block/top/thatch2_top_roof_end"},
+		
+		"part=end_part,north=false,east=true,south=false,west=false": { "model": "mcw_tfc_aio:block/top/thatch2_top_roof_end", "y": 90},
+		"part=end_part,north=false,east=true,south=false,west=true": { "model": "mcw_tfc_aio:block/top/thatch2_top_roof_end", "y": 90},
+		
+		"part=end_part,north=true,east=true,south=true,west=true": { "model": "mcw_tfc_aio:block/top/thatch2_four_way_roof"},
+		"part=basic,north=true,east=true,south=true,west=true": { "model": "mcw_tfc_aio:block/top/thatch2_four_way_roof"},
+        "part=end_part,north=false,east=false,south=true,west=false": { "model": "mcw_tfc_aio:block/top/thatch2_top_roof_end"},
+		"part=end_part,north=false,east=false,south=false,west=true": { "model": "mcw_tfc_aio:block/top/thatch2_top_roof_end"},
+		
+        "part=basic,north=true,west=true,east=false,south=false":  { "model": "mcw_tfc_aio:block/top/thatch2_top_outer" },
+        "part=basic,north=true,east=true,west=false,south=false": { "model": "mcw_tfc_aio:block/top/thatch2_top_outer", "y":90},
+        "part=basic,south=true,east=true,west=false,north=false": { "model": "mcw_tfc_aio:block/top/thatch2_top_outer", "y":180},
+		"part=basic,south=true,west=true,east=false,north=false": { "model": "mcw_tfc_aio:block/top/thatch2_top_outer", "y":270},
+
+        "part=end_part,north=true,west=true,east=false,south=false":  { "model": "mcw_tfc_aio:block/top/thatch2_top_outer" },
+        "part=end_part,north=true,east=true,west=false,south=false": { "model": "mcw_tfc_aio:block/top/thatch2_top_outer", "y":90},
+        "part=end_part,south=true,east=true,west=false,north=false": { "model": "mcw_tfc_aio:block/top/thatch2_top_outer", "y":180},
+		"part=end_part,south=true,west=true,east=false,north=false": { "model": "mcw_tfc_aio:block/top/thatch2_top_outer", "y":270},
+
+        "part=basic,north=true,east=true,south=false,west=true":  { "model": "mcw_tfc_aio:block/top/thatch2_three_way_roof", "y":270 },
+        "part=basic,north=false,east=true,south=true,west=true": { "model": "mcw_tfc_aio:block/top/thatch2_three_way_roof", "y":90},
+        "part=basic,north=true,east=true,south=true,west=false": { "model": "mcw_tfc_aio:block/top/thatch2_three_way_roof"},
+		"part=basic,north=true,east=false,south=true,west=true": { "model": "mcw_tfc_aio:block/top/thatch2_three_way_roof", "y":180},
+
+        "part=end_part,north=true,east=true,south=false,west=true":  { "model": "mcw_tfc_aio:block/top/thatch2_three_way_roof", "y":270 },
+        "part=end_part,north=false,east=true,south=true,west=true": { "model": "mcw_tfc_aio:block/top/thatch2_three_way_roof", "y":90},
+        "part=end_part,north=true,east=true,south=true,west=false": { "model": "mcw_tfc_aio:block/top/thatch2_three_way_roof"},
+		"part=end_part,north=true,east=false,south=true,west=true": { "model": "mcw_tfc_aio:block/top/thatch2_three_way_roof", "y":180}
+
+
+		
+		
+    }
+}
+

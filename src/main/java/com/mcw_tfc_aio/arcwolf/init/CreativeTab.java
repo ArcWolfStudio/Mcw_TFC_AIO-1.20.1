@@ -827,6 +827,13 @@ public class CreativeTab {
                         pOutput.accept(RoofInit.THATCH_TOP_ROOF.get());
                         pOutput.accept(RoofInit.THATCH_UPPER_LOWER_ROOF.get());
                         pOutput.accept(RoofInit.THATCH_UPPER_STEEP_ROOF.get());
+                        pOutput.accept(RoofInit.THATCH2_ATTIC_ROOF.get());
+                        pOutput.accept(RoofInit.THATCH2_LOWER_ROOF.get());
+                        pOutput.accept(RoofInit.THATCH2_ROOF.get());
+                        pOutput.accept(RoofInit.THATCH2_STEEP_ROOF.get());
+                        pOutput.accept(RoofInit.THATCH2_TOP_ROOF.get());
+                        pOutput.accept(RoofInit.THATCH2_UPPER_LOWER_ROOF.get());
+                        pOutput.accept(RoofInit.THATCH2_UPPER_STEEP_ROOF.get());
                     })
                     .build());
     public static final RegistryObject<CreativeModeTab> GUTTERITEMGROUP= CREATIVE_TABS.register("gutteritemgroup", () ->

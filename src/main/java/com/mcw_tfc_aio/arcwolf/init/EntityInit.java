@@ -1,6 +1,5 @@
 package com.mcw_tfc_aio.arcwolf.init;
 
-import com.mcw_tfc_aio.arcwolf.Mcw_Tfc_Aio;
 import com.mcw_tfc_aio.arcwolf.storage.ChairEntity;
 import com.mcw_tfc_aio.arcwolf.storage.ChairRenderer;
 import net.minecraft.world.entity.Entity;
@@ -16,16 +15,13 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-
 @EventBusSubscriber(
         modid = "mcw_tfc_aio",
         bus = Bus.MOD
 )
 public class EntityInit {
-
     public static final DeferredRegister<EntityType<?>> Registry;
     public static final RegistryObject<EntityType<ChairEntity>> CHAIR;
-
     public EntityInit() {
     }
 
@@ -52,4 +48,5 @@ public class EntityInit {
             return new ChairEntity(world);
         }));
     }
+
 }

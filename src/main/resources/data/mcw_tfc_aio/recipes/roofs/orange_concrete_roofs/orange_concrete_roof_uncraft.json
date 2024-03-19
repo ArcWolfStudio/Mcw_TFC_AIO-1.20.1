@@ -1,0 +1,18 @@
+{
+    "type": "tfc:damage_inputs_shapeless_crafting",
+    "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+            {
+                "tag": "mcw_tfc_aio:orange_concrete_roofs"
+            },
+            {
+                "tag": "tfc:saws"
+            }
+        ],
+        "result": {
+            "item": "minecraft:orange_concrete",
+            "count": 1
+        }
+    }
+}

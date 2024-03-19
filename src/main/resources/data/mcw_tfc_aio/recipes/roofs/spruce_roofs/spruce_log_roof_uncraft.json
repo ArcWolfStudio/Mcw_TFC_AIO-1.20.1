@@ -1,0 +1,18 @@
+{
+    "type": "tfc:damage_inputs_shapeless_crafting",
+    "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+            {
+                "tag": "mcw_tfc_aio:spruce_log_roofs"
+            },
+            {
+                "tag": "tfc:saws"
+            }
+        ],
+        "result": {
+            "item": "tfc:wood/log/spruce",
+            "count": 1
+        }
+    }
+}
