@@ -281,6 +281,15 @@ public class CreativeTab {
                     .title(Component.translatable("itemGroup.roofs"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ItemInit.ROOFING_HAMMER.get());
+                        pOutput.accept(RoofInit.BASE_ROOF.get());
+                        pOutput.accept(RoofInit.BASE_ATTIC_ROOF.get());
+                        pOutput.accept(RoofInit.BASE_TOP_ROOF.get());
+                        pOutput.accept(RoofInit.BASE_LOWER_ROOF.get());
+                        pOutput.accept(RoofInit.BASE_STEEP_ROOF.get());
+                        pOutput.accept(RoofInit.BASE_UPPER_LOWER_ROOF.get());
+                        pOutput.accept(RoofInit.BASE_UPPER_STEEP_ROOF.get());
+                        pOutput.accept(RoofInit.BASE_ROOF_BLOCK.get());
+                        pOutput.accept(RoofInit.BASE_ROOF_SLAB.get());
                         pOutput.accept(RoofInit.ACACIA_PLANKS_ATTIC_ROOF.get());
                         pOutput.accept(RoofInit.ACACIA_PLANKS_LOWER_ROOF.get());
                         pOutput.accept(RoofInit.ACACIA_PLANKS_ROOF.get());
